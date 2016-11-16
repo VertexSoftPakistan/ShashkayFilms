@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					4170CB931DDC3D6000CCE0A4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VM9TZ5P7XR;
 					};
 					4170CBAF1DDC3D6000CCE0A4 = {
 						CreatedOnToolsVersion = 7.2;
@@ -417,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShashkayFilms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilms;
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ShashkayFilms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilms;
