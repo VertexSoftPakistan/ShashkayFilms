@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4170CB991DDC3D6000CCE0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CB981DDC3D6000CCE0A4 /* main.m */; };
+		4170CB9C1DDC3D6000CCE0A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CB9B1DDC3D6000CCE0A4 /* AppDelegate.m */; };
+		4170CB9F1DDC3D6000CCE0A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CB9E1DDC3D6000CCE0A4 /* ViewController.m */; };
+		4170CBA21DDC3D6000CCE0A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4170CBA01DDC3D6000CCE0A4 /* Main.storyboard */; };
+		4170CBA51DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4170CBA31DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodeld */; };
+		4170CBA71DDC3D6000CCE0A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4170CBA61DDC3D6000CCE0A4 /* Assets.xcassets */; };
+		4170CBAA1DDC3D6000CCE0A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4170CBA81DDC3D6000CCE0A4 /* LaunchScreen.storyboard */; };
+		4170CBB51DDC3D6000CCE0A4 /* ShashkayFilmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CBB41DDC3D6000CCE0A4 /* ShashkayFilmsTests.m */; };
+		4170CBC01DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CBBF1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4170CBB11DDC3D6000CCE0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4170CB8C1DDC3D6000CCE0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4170CB931DDC3D6000CCE0A4;
+			remoteInfo = ShashkayFilms;
+		};
+		4170CBBC1DDC3D6000CCE0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4170CB8C1DDC3D6000CCE0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4170CB931DDC3D6000CCE0A4;
+			remoteInfo = ShashkayFilms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4170CB941DDC3D6000CCE0A4 /* ShashkayFilms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShashkayFilms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170CB981DDC3D6000CCE0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4170CB9A1DDC3D6000CCE0A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4170CB9B1DDC3D6000CCE0A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4170CB9D1DDC3D6000CCE0A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4170CB9E1DDC3D6000CCE0A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4170CBA11DDC3D6000CCE0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4170CBA41DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShashkayFilms.xcdatamodel; sourceTree = "<group>"; };
+		4170CBA61DDC3D6000CCE0A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4170CBA91DDC3D6000CCE0A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4170CBAB1DDC3D6000CCE0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4170CBB01DDC3D6000CCE0A4 /* ShashkayFilmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShashkayFilmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170CBB41DDC3D6000CCE0A4 /* ShashkayFilmsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShashkayFilmsTests.m; sourceTree = "<group>"; };
+		4170CBB61DDC3D6000CCE0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4170CBBB1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShashkayFilmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170CBBF1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShashkayFilmsUITests.m; sourceTree = "<group>"; };
+		4170CBC11DDC3D6000CCE0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4170CB911DDC3D6000CCE0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4170CBAD1DDC3D6000CCE0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4170CBB81DDC3D6000CCE0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4170CB8B1DDC3D6000CCE0A4 = {
+			isa = PBXGroup;
+			children = (
+				4170CB961DDC3D6000CCE0A4 /* ShashkayFilms */,
+				4170CBB31DDC3D6000CCE0A4 /* ShashkayFilmsTests */,
+				4170CBBE1DDC3D6000CCE0A4 /* ShashkayFilmsUITests */,
+				4170CB951DDC3D6000CCE0A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4170CB951DDC3D6000CCE0A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4170CB941DDC3D6000CCE0A4 /* ShashkayFilms.app */,
+				4170CBB01DDC3D6000CCE0A4 /* ShashkayFilmsTests.xctest */,
+				4170CBBB1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4170CB961DDC3D6000CCE0A4 /* ShashkayFilms */ = {
+			isa = PBXGroup;
+			children = (
+				4170CB9A1DDC3D6000CCE0A4 /* AppDelegate.h */,
+				4170CB9B1DDC3D6000CCE0A4 /* AppDelegate.m */,
+				4170CB9D1DDC3D6000CCE0A4 /* ViewController.h */,
+				4170CB9E1DDC3D6000CCE0A4 /* ViewController.m */,
+				4170CBA01DDC3D6000CCE0A4 /* Main.storyboard */,
+				4170CBA61DDC3D6000CCE0A4 /* Assets.xcassets */,
+				4170CBA81DDC3D6000CCE0A4 /* LaunchScreen.storyboard */,
+				4170CBAB1DDC3D6000CCE0A4 /* Info.plist */,
+				4170CBA31DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodeld */,
+				4170CB971DDC3D6000CCE0A4 /* Supporting Files */,
+			);
+			path = ShashkayFilms;
+			sourceTree = "<group>";
+		};
+		4170CB971DDC3D6000CCE0A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4170CB981DDC3D6000CCE0A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4170CBB31DDC3D6000CCE0A4 /* ShashkayFilmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4170CBB41DDC3D6000CCE0A4 /* ShashkayFilmsTests.m */,
+				4170CBB61DDC3D6000CCE0A4 /* Info.plist */,
+			);
+			path = ShashkayFilmsTests;
+			sourceTree = "<group>";
+		};
+		4170CBBE1DDC3D6000CCE0A4 /* ShashkayFilmsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4170CBBF1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m */,
+				4170CBC11DDC3D6000CCE0A4 /* Info.plist */,
+			);
+			path = ShashkayFilmsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4170CB931DDC3D6000CCE0A4 /* ShashkayFilms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4170CBC41DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilms" */;
+			buildPhases = (
+				4170CB901DDC3D6000CCE0A4 /* Sources */,
+				4170CB911DDC3D6000CCE0A4 /* Frameworks */,
+				4170CB921DDC3D6000CCE0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShashkayFilms;
+			productName = ShashkayFilms;
+			productReference = 4170CB941DDC3D6000CCE0A4 /* ShashkayFilms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4170CBAF1DDC3D6000CCE0A4 /* ShashkayFilmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4170CBC71DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilmsTests" */;
+			buildPhases = (
+				4170CBAC1DDC3D6000CCE0A4 /* Sources */,
+				4170CBAD1DDC3D6000CCE0A4 /* Frameworks */,
+				4170CBAE1DDC3D6000CCE0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4170CBB21DDC3D6000CCE0A4 /* PBXTargetDependency */,
+			);
+			name = ShashkayFilmsTests;
+			productName = ShashkayFilmsTests;
+			productReference = 4170CBB01DDC3D6000CCE0A4 /* ShashkayFilmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4170CBBA1DDC3D6000CCE0A4 /* ShashkayFilmsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4170CBCA1DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilmsUITests" */;
+			buildPhases = (
+				4170CBB71DDC3D6000CCE0A4 /* Sources */,
+				4170CBB81DDC3D6000CCE0A4 /* Frameworks */,
+				4170CBB91DDC3D6000CCE0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4170CBBD1DDC3D6000CCE0A4 /* PBXTargetDependency */,
+			);
+			name = ShashkayFilmsUITests;
+			productName = ShashkayFilmsUITests;
+			productReference = 4170CBBB1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4170CB8C1DDC3D6000CCE0A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VertexSoft;
+				TargetAttributes = {
+					4170CB931DDC3D6000CCE0A4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4170CBAF1DDC3D6000CCE0A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4170CB931DDC3D6000CCE0A4;
+					};
+					4170CBBA1DDC3D6000CCE0A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4170CB931DDC3D6000CCE0A4;
+					};
+				};
+			};
+			buildConfigurationList = 4170CB8F1DDC3D6000CCE0A4 /* Build configuration list for PBXProject "ShashkayFilms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4170CB8B1DDC3D6000CCE0A4;
+			productRefGroup = 4170CB951DDC3D6000CCE0A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4170CB931DDC3D6000CCE0A4 /* ShashkayFilms */,
+				4170CBAF1DDC3D6000CCE0A4 /* ShashkayFilmsTests */,
+				4170CBBA1DDC3D6000CCE0A4 /* ShashkayFilmsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4170CB921DDC3D6000CCE0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4170CBAA1DDC3D6000CCE0A4 /* LaunchScreen.storyboard in Resources */,
+				4170CBA71DDC3D6000CCE0A4 /* Assets.xcassets in Resources */,
+				4170CBA21DDC3D6000CCE0A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4170CBAE1DDC3D6000CCE0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4170CBB91DDC3D6000CCE0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4170CB901DDC3D6000CCE0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4170CB9F1DDC3D6000CCE0A4 /* ViewController.m in Sources */,
+				4170CBA51DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodeld in Sources */,
+				4170CB9C1DDC3D6000CCE0A4 /* AppDelegate.m in Sources */,
+				4170CB991DDC3D6000CCE0A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4170CBAC1DDC3D6000CCE0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4170CBB51DDC3D6000CCE0A4 /* ShashkayFilmsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4170CBB71DDC3D6000CCE0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4170CBC01DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4170CBB21DDC3D6000CCE0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4170CB931DDC3D6000CCE0A4 /* ShashkayFilms */;
+			targetProxy = 4170CBB11DDC3D6000CCE0A4 /* PBXContainerItemProxy */;
+		};
+		4170CBBD1DDC3D6000CCE0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4170CB931DDC3D6000CCE0A4 /* ShashkayFilms */;
+			targetProxy = 4170CBBC1DDC3D6000CCE0A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4170CBA01DDC3D6000CCE0A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4170CBA11DDC3D6000CCE0A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4170CBA81DDC3D6000CCE0A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4170CBA91DDC3D6000CCE0A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4170CBC21DDC3D6000CCE0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4170CBC31DDC3D6000CCE0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4170CBC51DDC3D6000CCE0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShashkayFilms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4170CBC61DDC3D6000CCE0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShashkayFilms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4170CBC81DDC3D6000CCE0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShashkayFilmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShashkayFilms.app/ShashkayFilms";
+			};
+			name = Debug;
+		};
+		4170CBC91DDC3D6000CCE0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShashkayFilmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShashkayFilms.app/ShashkayFilms";
+			};
+			name = Release;
+		};
+		4170CBCB1DDC3D6000CCE0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShashkayFilmsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilmsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShashkayFilms;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4170CBCC1DDC3D6000CCE0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShashkayFilmsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilmsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShashkayFilms;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4170CB8F1DDC3D6000CCE0A4 /* Build configuration list for PBXProject "ShashkayFilms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4170CBC21DDC3D6000CCE0A4 /* Debug */,
+				4170CBC31DDC3D6000CCE0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4170CBC41DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4170CBC51DDC3D6000CCE0A4 /* Debug */,
+				4170CBC61DDC3D6000CCE0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4170CBC71DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4170CBC81DDC3D6000CCE0A4 /* Debug */,
+				4170CBC91DDC3D6000CCE0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4170CBCA1DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilmsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4170CBCB1DDC3D6000CCE0A4 /* Debug */,
+				4170CBCC1DDC3D6000CCE0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4170CBA31DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4170CBA41DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodel */,
+			);
+			currentVersion = 4170CBA41DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodel */;
+			path = ShashkayFilms.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4170CB8C1DDC3D6000CCE0A4 /* Project object */;
+}
