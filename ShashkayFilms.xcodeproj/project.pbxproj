@@ -16,6 +16,8 @@
 		4170CBAA1DDC3D6000CCE0A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4170CBA81DDC3D6000CCE0A4 /* LaunchScreen.storyboard */; };
 		4170CBB51DDC3D6000CCE0A4 /* ShashkayFilmsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CBB41DDC3D6000CCE0A4 /* ShashkayFilmsTests.m */; };
 		4170CBC01DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CBBF1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m */; };
+		4170CBCE1DDC425800CCE0A4 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 4170CBCD1DDC425800CCE0A4 /* PodFile */; };
+		4834BBDF344269131623F9E9 /* Pods_ShashkayFilms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061A22C1F17D43FE234A88D3 /* Pods_ShashkayFilms.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044EA2E139FAD984B457559A /* Pods-ShashkayFilms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashkayFilms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShashkayFilms/Pods-ShashkayFilms.debug.xcconfig"; sourceTree = "<group>"; };
+		061A22C1F17D43FE234A88D3 /* Pods_ShashkayFilms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShashkayFilms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4170CB941DDC3D6000CCE0A4 /* ShashkayFilms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShashkayFilms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4170CB981DDC3D6000CCE0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4170CB9A1DDC3D6000CCE0A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		4170CBBB1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShashkayFilmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4170CBBF1DDC3D6000CCE0A4 /* ShashkayFilmsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShashkayFilmsUITests.m; sourceTree = "<group>"; };
 		4170CBC11DDC3D6000CCE0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4170CBCD1DDC425800CCE0A4 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PodFile; path = ../PodFile; sourceTree = "<group>"; };
+		F7A5F806005B476057B3664D /* Pods-ShashkayFilms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashkayFilms.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShashkayFilms/Pods-ShashkayFilms.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4834BBDF344269131623F9E9 /* Pods_ShashkayFilms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10E62DBB1E8F109EB15040DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				044EA2E139FAD984B457559A /* Pods-ShashkayFilms.debug.xcconfig */,
+				F7A5F806005B476057B3664D /* Pods-ShashkayFilms.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4170CB8B1DDC3D6000CCE0A4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +103,8 @@
 				4170CBB31DDC3D6000CCE0A4 /* ShashkayFilmsTests */,
 				4170CBBE1DDC3D6000CCE0A4 /* ShashkayFilmsUITests */,
 				4170CB951DDC3D6000CCE0A4 /* Products */,
+				10E62DBB1E8F109EB15040DD /* Pods */,
+				EDC8D7E25E0C097D1D8A5D3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +138,7 @@
 		4170CB971DDC3D6000CCE0A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4170CBCD1DDC425800CCE0A4 /* PodFile */,
 				4170CB981DDC3D6000CCE0A4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +162,14 @@
 			path = ShashkayFilmsUITests;
 			sourceTree = "<group>";
 		};
+		EDC8D7E25E0C097D1D8A5D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				061A22C1F17D43FE234A88D3 /* Pods_ShashkayFilms.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4170CBC41DDC3D6000CCE0A4 /* Build configuration list for PBXNativeTarget "ShashkayFilms" */;
 			buildPhases = (
+				8139A88078111B841FC5B6ED /* [CP] Check Pods Manifest.lock */,
 				4170CB901DDC3D6000CCE0A4 /* Sources */,
 				4170CB911DDC3D6000CCE0A4 /* Frameworks */,
 				4170CB921DDC3D6000CCE0A4 /* Resources */,
+				201D44D2A31C0458CF55469C /* [CP] Embed Pods Frameworks */,
+				0BF8155CC255B37B0C49B9B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +279,7 @@
 			files = (
 				4170CBAA1DDC3D6000CCE0A4 /* LaunchScreen.storyboard in Resources */,
 				4170CBA71DDC3D6000CCE0A4 /* Assets.xcassets in Resources */,
+				4170CBCE1DDC425800CCE0A4 /* PodFile in Resources */,
 				4170CBA21DDC3D6000CCE0A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +299,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF8155CC255B37B0C49B9B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashkayFilms/Pods-ShashkayFilms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		201D44D2A31C0458CF55469C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShashkayFilms/Pods-ShashkayFilms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8139A88078111B841FC5B6ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4170CB901DDC3D6000CCE0A4 /* Sources */ = {
@@ -416,6 +495,7 @@
 		};
 		4170CBC51DDC3D6000CCE0A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044EA2E139FAD984B457559A /* Pods-ShashkayFilms.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -428,6 +508,7 @@
 		};
 		4170CBC61DDC3D6000CCE0A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A5F806005B476057B3664D /* Pods-ShashkayFilms.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
