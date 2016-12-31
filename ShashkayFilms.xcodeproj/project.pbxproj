@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414BA5511DEEB53900DF3DD9 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414BA5501DEEB53900DF3DD9 /* SignUpViewController.m */; };
+		414BA5541DEEF4A300DF3DD9 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414BA5531DEEF4A300DF3DD9 /* SignInViewController.m */; };
+		4155A0EC1DF02C6400966A59 /* ConfirmSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155A0EB1DF02C6400966A59 /* ConfirmSignUpViewController.m */; };
 		4170CB991DDC3D6000CCE0A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CB981DDC3D6000CCE0A4 /* main.m */; };
 		4170CB9C1DDC3D6000CCE0A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CB9B1DDC3D6000CCE0A4 /* AppDelegate.m */; };
 		4170CB9F1DDC3D6000CCE0A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4170CB9E1DDC3D6000CCE0A4 /* ViewController.m */; };
@@ -55,7 +58,24 @@
 		4170CC061DDC616C00CCE0A4 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4170CBE11DDC616B00CCE0A4 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4170CC071DDC616C00CCE0A4 /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4170CBE21DDC616B00CCE0A4 /* AWSSQS.framework */; };
 		4170CC081DDC616C00CCE0A4 /* AWSSQS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4170CBE21DDC616B00CCE0A4 /* AWSSQS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4834BBDF344269131623F9E9 /* Pods_ShashkayFilms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061A22C1F17D43FE234A88D3 /* Pods_ShashkayFilms.framework */; };
+		41B9BE581E16467500CFA2BD /* User Name.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B9BE571E16467500CFA2BD /* User Name.png */; };
+		41B9BE5B1E1646DA00CFA2BD /* Email address.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B9BE591E1646DA00CFA2BD /* Email address.png */; };
+		41B9BE5C1E1646DA00CFA2BD /* Pasword.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B9BE5A1E1646DA00CFA2BD /* Pasword.png */; };
+		41B9BE5F1E16473300CFA2BD /* Term and Conditions 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B9BE5D1E16473300CFA2BD /* Term and Conditions 2.png */; };
+		41B9BE601E16473300CFA2BD /* Term and Conditions.png in Resources */ = {isa = PBXBuildFile; fileRef = 41B9BE5E1E16473300CFA2BD /* Term and Conditions.png */; };
+		41D7D56B1E08048600A15F90 /*   Sign Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5651E08048600A15F90 /*   Sign Up.png */; };
+		41D7D56C1E08048600A15F90 /*   Sign Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5661E08048600A15F90 /*   Sign Up@2x.png */; };
+		41D7D56D1E08048600A15F90 /*   Sign Up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5671E08048600A15F90 /*   Sign Up@3x.png */; };
+		41D7D56E1E08048600A15F90 /*  Sign In.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5681E08048600A15F90 /*  Sign In.png */; };
+		41D7D56F1E08048600A15F90 /*  Sign In@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5691E08048600A15F90 /*  Sign In@2x.png */; };
+		41D7D5701E08048600A15F90 /*  Sign In@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D56A1E08048600A15F90 /*  Sign In@3x.png */; };
+		41D7D5771E080C6600A15F90 /* Log In Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5751E080C6600A15F90 /* Log In Button@2x.png */; };
+		41D7D5781E080C6600A15F90 /* Log In Button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D5761E080C6600A15F90 /* Log In Button@3x.png */; };
+		41D7D57C1E08119700A15F90 /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D7D57B1E08119700A15F90 /* register.png */; };
+		41D7D5811E082CDD00A15F90 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D7D5801E082CDD00A15F90 /* PlayerViewController.m */; };
+		41DA46E51DF824A00023526A /* MFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DA46E31DF824A00023526A /* MFAViewController.m */; };
+		41DA46E61DF824A00023526A /* MFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41DA46E41DF824A00023526A /* MFAViewController.xib */; };
+		74C9EC298D669D8B142329CE /* Pods_ShashkayFilms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061A22C1F17D43FE234A88D3 /* Pods_ShashkayFilms.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +130,12 @@
 /* Begin PBXFileReference section */
 		044EA2E139FAD984B457559A /* Pods-ShashkayFilms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashkayFilms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShashkayFilms/Pods-ShashkayFilms.debug.xcconfig"; sourceTree = "<group>"; };
 		061A22C1F17D43FE234A88D3 /* Pods_ShashkayFilms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShashkayFilms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		414BA54F1DEEB53900DF3DD9 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		414BA5501DEEB53900DF3DD9 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		414BA5521DEEF4A300DF3DD9 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		414BA5531DEEF4A300DF3DD9 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		4155A0EA1DF02C6300966A59 /* ConfirmSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmSignUpViewController.h; sourceTree = "<group>"; };
+		4155A0EB1DF02C6400966A59 /* ConfirmSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmSignUpViewController.m; sourceTree = "<group>"; };
 		4170CB941DDC3D6000CCE0A4 /* ShashkayFilms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShashkayFilms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4170CB981DDC3D6000CCE0A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4170CB9A1DDC3D6000CCE0A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +173,26 @@
 		4170CBE01DDC616B00CCE0A4 /* AWSSimpleDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSimpleDB.framework; sourceTree = "<group>"; };
 		4170CBE11DDC616B00CCE0A4 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSNS.framework; sourceTree = "<group>"; };
 		4170CBE21DDC616B00CCE0A4 /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSQS.framework; sourceTree = "<group>"; };
+		4176D8271E0A71A400C7F938 /* JWPlayer-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "JWPlayer-iOS-SDK.framework"; path = "../../../Desktop/jwplayer-ios-sdk-2.6.0+9/Framework/JWPlayer-iOS-SDK.framework"; sourceTree = "<group>"; };
+		41B9BE571E16467500CFA2BD /* User Name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Name.png"; sourceTree = "<group>"; };
+		41B9BE591E1646DA00CFA2BD /* Email address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email address.png"; sourceTree = "<group>"; };
+		41B9BE5A1E1646DA00CFA2BD /* Pasword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pasword.png; sourceTree = "<group>"; };
+		41B9BE5D1E16473300CFA2BD /* Term and Conditions 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Term and Conditions 2.png"; sourceTree = "<group>"; };
+		41B9BE5E1E16473300CFA2BD /* Term and Conditions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Term and Conditions.png"; sourceTree = "<group>"; };
+		41D7D5651E08048600A15F90 /*   Sign Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "  Sign Up.png"; sourceTree = "<group>"; };
+		41D7D5661E08048600A15F90 /*   Sign Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "  Sign Up@2x.png"; sourceTree = "<group>"; };
+		41D7D5671E08048600A15F90 /*   Sign Up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "  Sign Up@3x.png"; sourceTree = "<group>"; };
+		41D7D5681E08048600A15F90 /*  Sign In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " Sign In.png"; sourceTree = "<group>"; };
+		41D7D5691E08048600A15F90 /*  Sign In@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " Sign In@2x.png"; sourceTree = "<group>"; };
+		41D7D56A1E08048600A15F90 /*  Sign In@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " Sign In@3x.png"; sourceTree = "<group>"; };
+		41D7D5751E080C6600A15F90 /* Log In Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log In Button@2x.png"; sourceTree = "<group>"; };
+		41D7D5761E080C6600A15F90 /* Log In Button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log In Button@3x.png"; sourceTree = "<group>"; };
+		41D7D57B1E08119700A15F90 /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register.png; sourceTree = "<group>"; };
+		41D7D57F1E082CDD00A15F90 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		41D7D5801E082CDD00A15F90 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		41DA46E21DF824A00023526A /* MFAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFAViewController.h; sourceTree = "<group>"; };
+		41DA46E31DF824A00023526A /* MFAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAViewController.m; sourceTree = "<group>"; };
+		41DA46E41DF824A00023526A /* MFAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAViewController.xib; sourceTree = "<group>"; };
 		F7A5F806005B476057B3664D /* Pods-ShashkayFilms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShashkayFilms.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShashkayFilms/Pods-ShashkayFilms.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,12 +215,12 @@
 				4170CBE31DDC616B00CCE0A4 /* AWSAPIGateway.framework in Frameworks */,
 				4170CBF31DDC616C00CCE0A4 /* AWSElasticLoadBalancing.framework in Frameworks */,
 				4170CBFF1DDC616C00CCE0A4 /* AWSS3.framework in Frameworks */,
-				4834BBDF344269131623F9E9 /* Pods_ShashkayFilms.framework in Frameworks */,
 				4170CC051DDC616C00CCE0A4 /* AWSSNS.framework in Frameworks */,
 				4170CBE91DDC616B00CCE0A4 /* AWSCognito.framework in Frameworks */,
 				4170CC011DDC616C00CCE0A4 /* AWSSES.framework in Frameworks */,
 				4170CC031DDC616C00CCE0A4 /* AWSSimpleDB.framework in Frameworks */,
 				4170CBF11DDC616C00CCE0A4 /* AWSEC2.framework in Frameworks */,
+				74C9EC298D669D8B142329CE /* Pods_ShashkayFilms.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,10 +275,21 @@
 		4170CB961DDC3D6000CCE0A4 /* ShashkayFilms */ = {
 			isa = PBXGroup;
 			children = (
+				41D7D57F1E082CDD00A15F90 /* PlayerViewController.h */,
+				41D7D5801E082CDD00A15F90 /* PlayerViewController.m */,
+				4155A0EA1DF02C6300966A59 /* ConfirmSignUpViewController.h */,
+				4155A0EB1DF02C6400966A59 /* ConfirmSignUpViewController.m */,
+				414BA5521DEEF4A300DF3DD9 /* SignInViewController.h */,
+				414BA5531DEEF4A300DF3DD9 /* SignInViewController.m */,
+				414BA54F1DEEB53900DF3DD9 /* SignUpViewController.h */,
+				414BA5501DEEB53900DF3DD9 /* SignUpViewController.m */,
 				4170CB9A1DDC3D6000CCE0A4 /* AppDelegate.h */,
 				4170CB9B1DDC3D6000CCE0A4 /* AppDelegate.m */,
 				4170CB9D1DDC3D6000CCE0A4 /* ViewController.h */,
 				4170CB9E1DDC3D6000CCE0A4 /* ViewController.m */,
+				41DA46E21DF824A00023526A /* MFAViewController.h */,
+				41DA46E31DF824A00023526A /* MFAViewController.m */,
+				41DA46E41DF824A00023526A /* MFAViewController.xib */,
 				4170CBA01DDC3D6000CCE0A4 /* Main.storyboard */,
 				4170CBA61DDC3D6000CCE0A4 /* Assets.xcassets */,
 				4170CBA81DDC3D6000CCE0A4 /* LaunchScreen.storyboard */,
@@ -246,6 +303,7 @@
 		4170CB971DDC3D6000CCE0A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41D7D5641E08047700A15F90 /* ArtWork */,
 				4170CBCD1DDC425800CCE0A4 /* PodFile */,
 				4170CB981DDC3D6000CCE0A4 /* main.m */,
 			);
@@ -270,9 +328,31 @@
 			path = ShashkayFilmsUITests;
 			sourceTree = "<group>";
 		};
+		41D7D5641E08047700A15F90 /* ArtWork */ = {
+			isa = PBXGroup;
+			children = (
+				41B9BE571E16467500CFA2BD /* User Name.png */,
+				41B9BE591E1646DA00CFA2BD /* Email address.png */,
+				41B9BE5A1E1646DA00CFA2BD /* Pasword.png */,
+				41D7D57B1E08119700A15F90 /* register.png */,
+				41B9BE5D1E16473300CFA2BD /* Term and Conditions 2.png */,
+				41B9BE5E1E16473300CFA2BD /* Term and Conditions.png */,
+				41D7D5751E080C6600A15F90 /* Log In Button@2x.png */,
+				41D7D5761E080C6600A15F90 /* Log In Button@3x.png */,
+				41D7D5651E08048600A15F90 /*   Sign Up.png */,
+				41D7D5661E08048600A15F90 /*   Sign Up@2x.png */,
+				41D7D5671E08048600A15F90 /*   Sign Up@3x.png */,
+				41D7D5681E08048600A15F90 /*  Sign In.png */,
+				41D7D5691E08048600A15F90 /*  Sign In@2x.png */,
+				41D7D56A1E08048600A15F90 /*  Sign In@3x.png */,
+			);
+			name = ArtWork;
+			sourceTree = "<group>";
+		};
 		EDC8D7E25E0C097D1D8A5D3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4176D8271E0A71A400C7F938 /* JWPlayer-iOS-SDK.framework */,
 				4170CBD01DDC616B00CCE0A4 /* AWSAPIGateway.framework */,
 				4170CBD11DDC616B00CCE0A4 /* AWSAutoScaling.framework */,
 				4170CBD21DDC616B00CCE0A4 /* AWSCloudWatch.framework */,
@@ -407,10 +487,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B9BE581E16467500CFA2BD /* User Name.png in Resources */,
+				41D7D56F1E08048600A15F90 /*  Sign In@2x.png in Resources */,
+				41B9BE5B1E1646DA00CFA2BD /* Email address.png in Resources */,
 				4170CBAA1DDC3D6000CCE0A4 /* LaunchScreen.storyboard in Resources */,
 				4170CBA71DDC3D6000CCE0A4 /* Assets.xcassets in Resources */,
+				41D7D57C1E08119700A15F90 /* register.png in Resources */,
+				41D7D56C1E08048600A15F90 /*   Sign Up@2x.png in Resources */,
+				41B9BE601E16473300CFA2BD /* Term and Conditions.png in Resources */,
+				41D7D5771E080C6600A15F90 /* Log In Button@2x.png in Resources */,
+				41D7D56B1E08048600A15F90 /*   Sign Up.png in Resources */,
+				41B9BE5C1E1646DA00CFA2BD /* Pasword.png in Resources */,
+				41D7D56D1E08048600A15F90 /*   Sign Up@3x.png in Resources */,
+				41D7D56E1E08048600A15F90 /*  Sign In.png in Resources */,
 				4170CBCE1DDC425800CCE0A4 /* PodFile in Resources */,
+				41D7D5781E080C6600A15F90 /* Log In Button@3x.png in Resources */,
+				41D7D5701E08048600A15F90 /*  Sign In@3x.png in Resources */,
 				4170CBA21DDC3D6000CCE0A4 /* Main.storyboard in Resources */,
+				41DA46E61DF824A00023526A /* MFAViewController.xib in Resources */,
+				41B9BE5F1E16473300CFA2BD /* Term and Conditions 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,27 +558,27 @@
 		};
 		4170CBCF1DDC602C00CCE0A4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n\nShow environment variables in build log: Checked\nRun script only when installing: Not checked\n\n";
 		};
 		4170CC0A1DDC61AA00CCE0A4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n\nShow environment variables in build log: Checked\nRun script only when installing: Not checked";
 		};
@@ -510,9 +605,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4170CB9F1DDC3D6000CCE0A4 /* ViewController.m in Sources */,
+				41DA46E51DF824A00023526A /* MFAViewController.m in Sources */,
+				4155A0EC1DF02C6400966A59 /* ConfirmSignUpViewController.m in Sources */,
+				414BA5511DEEB53900DF3DD9 /* SignUpViewController.m in Sources */,
 				4170CBA51DDC3D6000CCE0A4 /* ShashkayFilms.xcdatamodeld in Sources */,
 				4170CB9C1DDC3D6000CCE0A4 /* AppDelegate.m in Sources */,
+				414BA5541DEEF4A300DF3DD9 /* SignInViewController.m in Sources */,
 				4170CB991DDC3D6000CCE0A4 /* main.m in Sources */,
+				41D7D5811E082CDD00A15F90 /* PlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,11 +755,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VM9TZ5P7XR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ShashkayFilms/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -672,11 +774,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VM9TZ5P7XR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ShashkayFilms/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vertex.ShashkayFilms;
 				PRODUCT_NAME = "$(TARGET_NAME)";

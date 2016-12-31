@@ -1,39 +1,40 @@
 PODS:
-  - AWSAutoScaling (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSCloudWatch (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSCognito (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSCognitoIdentityProvider (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSCore (2.4.11)
-  - AWSDynamoDB (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSEC2 (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSElasticLoadBalancing (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSIoT (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSKinesis (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSLambda (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSMachineLearning (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSMobileAnalytics (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSS3 (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSSES (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSSimpleDB (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSSNS (2.4.11):
-    - AWSCore (= 2.4.11)
-  - AWSSQS (2.4.11):
-    - AWSCore (= 2.4.11)
+  - AWSAutoScaling (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCloudWatch (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCognito (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCognitoIdentityProvider (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+  - AWSDynamoDB (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSEC2 (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSElasticLoadBalancing (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSIoT (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSKinesis (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSLambda (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSMachineLearning (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSMobileAnalytics (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSS3 (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSSES (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSSimpleDB (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSSNS (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSSQS (2.4.16):
+    - AWSCore (= 2.4.16)
+  - JWPlayer-SDK (2.6.0)
 
 DEPENDENCIES:
   - AWSAutoScaling
@@ -53,27 +54,29 @@ DEPENDENCIES:
   - AWSSimpleDB
   - AWSSNS
   - AWSSQS
+  - JWPlayer-SDK
 
 SPEC CHECKSUMS:
-  AWSAutoScaling: 2c7a041a654c72b39951d3671bde3ddf9157715d
-  AWSCloudWatch: bbd93b490a16a297ab3fe31f8f5cd8e20e19d79a
-  AWSCognito: e086ad6f499e309dbf0030170cffc65a0bfd27c6
-  AWSCognitoIdentityProvider: e8b124892dba5bbe32f93194220ad4b17bb50677
-  AWSCore: e66b0f50d68f9897cc9e68471062f0cb5379eec5
-  AWSDynamoDB: 1d54c63fe63c2afcd0caea5ce709d1a0b213213f
-  AWSEC2: 24806eacad9aa11cdc16dcb653bccedd7a7b9030
-  AWSElasticLoadBalancing: 4df4ced0d718d821311a959c385371ce7b729f07
-  AWSIoT: e303069b64ca157635108c6e169c93cc0847e7e5
-  AWSKinesis: 6cb057bf82d0c50f0de3f17880461a6b7faddffc
-  AWSLambda: a724cdda7d76c8c9d6e8447134c221b22531d2bc
-  AWSMachineLearning: 6514667eb1bb21bce4344122f776620137c3a908
-  AWSMobileAnalytics: b57240111c0c93b2172bd61db20842755a6b1c7e
-  AWSS3: 2f90735901744687eaeb91621fa62ee921db6510
-  AWSSES: 9e0c08215c6dea9aabc84c5cb41c630518632889
-  AWSSimpleDB: b80bf22d6c98d3455b09abc9c742fa11e1268971
-  AWSSNS: 6844814ce167da813e213a4d3f8f0e6c45ae3bed
-  AWSSQS: c2ba8ed579233f50b9bdf71717a9bee8878dfc82
+  AWSAutoScaling: b659a202a145e89c212f11b889122545a663f5e8
+  AWSCloudWatch: 3653a840e267235722b350202e06185a976c3ba9
+  AWSCognito: 666dba6eb65ac27faad79e83febf25630913aefc
+  AWSCognitoIdentityProvider: 1c74bb819fc5f74a708a4a8e0be8b235a959ab86
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  AWSDynamoDB: e6fc88dca72b2efee4492729d96ed945b9f3a224
+  AWSEC2: 357263a041beeb42083faeb4d314eec2cab28165
+  AWSElasticLoadBalancing: 50dbb109ae332101f9263ea130e5766cbd820ee0
+  AWSIoT: e932e22992b8fe0fa5a41ce2de60d8a284396603
+  AWSKinesis: 7e449258e9f7efa7d54c407a7136120ab033115c
+  AWSLambda: 87ec46e9fc53409dcbe28b70a6ac86a27b87275b
+  AWSMachineLearning: 8a8b091506fd54b6939334e18aefc38316541328
+  AWSMobileAnalytics: d149e1d0983df810f59860dfa132f1ac9d97bc5a
+  AWSS3: fef6aa8f8f625df8f67f1b6574fe761f3a4ddc99
+  AWSSES: 2ae1cedd965aaffc7f8be9c7b2cf5e236f7b795b
+  AWSSimpleDB: c4f1f0f2c148b851e24f9c0bd43a89bebf978e72
+  AWSSNS: f7eb9a5c19410e2a0164febc2cd665831c1cd26c
+  AWSSQS: c13f3196915c83cd2b9453412e0db699d7d2ea5f
+  JWPlayer-SDK: c5c04bbfb391fddd1d4e9643395b3da20ecf77eb
 
-PODFILE CHECKSUM: 6e31189fcd52af67d1bf4c1596c152f5b3ae2958
+PODFILE CHECKSUM: 8fd452e2c5f5fd651a51c0615d10e734b2a6bd46
 
 COCOAPODS: 1.1.1

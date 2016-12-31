@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AWSCore/AWSCore.h>
 
 @interface AppDelegate ()
 
@@ -18,7 +18,87 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc] initWithRegionType:AWSRegionEUCentral1
+//                                                                                                    identityPoolId:@"eu-central-1:ed74363e-3af2-4e83-823f-553e11f9f0f1"];
+//    
+//    AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionEUCentral1
+//                                                                         credentialsProvider:credentialsProvider];
+//    
+//    
+//    AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
+    
+    //setup logging
+    [AWSLogger defaultLogger].logLevel = AWSLogLevelVerbose;
+    
+    //setup service config
+    AWSServiceConfiguration *serviceConfiguration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionEUCentral1 credentialsProvider:nil];
+    
+
+    
+    //create a pool
+    AWSCognitoIdentityUserPoolConfiguration *configuration = [[AWSCognitoIdentityUserPoolConfiguration alloc] initWithClientId:@"6hhfrnt86matgvhhc7qc9f0s1s"  clientSecret:@"9orf92n6um0oejic0tc7qmcntgu2nrfc1v5o4pdmu245phu5tat" poolId:@"eu-central-1:ed74363e-3af2-4e83-823f-553e11f9f0f1"];
+    
+    [AWSCognitoIdentityUserPool registerCognitoIdentityUserPoolWithConfiguration:serviceConfiguration userPoolConfiguration:configuration forKey:@"UserPool"];
+    
+    AWSCognitoIdentityUserPool *pool = [AWSCognitoIdentityUserPool CognitoIdentityUserPoolForKey:@"UserPool"];
+    
+    self.storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    pool.delegate = self;
+    
+    
     return YES;
+}
+
+
+//set up password authentication ui to retrieve username and password from the user
+-(id<AWSCognitoIdentityPasswordAuthentication>) startPasswordAuthentication {
+    
+    if(!self.navigationController){
+        self.navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"signinController"];
+    }
+    if(!self.signInViewController){
+        self.signInViewController = self.navigationController.viewControllers[0];
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //rewind to login screen
+        [self.navigationController popToRootViewControllerAnimated:NO];
+        
+        //display login screen if it isn't already visibile
+        if(!(self.navigationController.isViewLoaded && self.navigationController.view.window))
+        {
+            [self.window.rootViewController presentViewController:self.navigationController animated:YES completion:nil];
+        }
+    });
+    return self.signInViewController;
+}
+
+
+//set up mfa ui to retrieve mfa code from end user
+-(id<AWSCognitoIdentityMultiFactorAuthentication>) startMultiFactorAuthentication {
+    if(!self.mfaViewController){
+        self.mfaViewController = [MFAViewController new];
+        self.mfaViewController.modalPresentationStyle = UIModalPresentationPopover;
+    }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //if mfa view isn't already visible, display it
+        if (!(self.mfaViewController.isViewLoaded && self.mfaViewController.view.window)) {
+            //display mfa as popover on current view controller
+            UIViewController *vc = self.window.rootViewController;
+            [vc presentViewController:self.mfaViewController animated: YES completion: nil];
+            
+            //configure popover vc
+            UIPopoverPresentationController *presentationController =
+            [self.mfaViewController popoverPresentationController];
+            presentationController.permittedArrowDirections =
+            UIPopoverArrowDirectionLeft | UIPopoverArrowDirectionRight;
+            presentationController.sourceView = vc.view;
+            presentationController.sourceRect = vc.view.bounds;
+        }
+    });
+    return self.mfaViewController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

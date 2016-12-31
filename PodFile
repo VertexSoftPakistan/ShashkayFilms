@@ -21,4 +21,5 @@ pod 'AWSSES'
 pod 'AWSSimpleDB'
 pod 'AWSSNS'
 pod 'AWSSQS'
+pod 'JWPlayer-SDK'
 end
